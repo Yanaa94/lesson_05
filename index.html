@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 05</title>
+</head>
+<body>
+    
+    <!-- Вставка стороннего сайта к себе на сайт-->
+    <h2>Элемент iframe</h2>
+    <iframe src="http://wikipedia.com" width="600" height="600">
+    </iframe>
+    
+    <!--вставка аудио-->
+    <audio controls>
+        <source src="./Audio/Justin_Timberlake_Say_Something.ogg" type="audio/ogg">
+        <source src="./Audio/Justin_Timberlake_Say_Something_mpeg.mp3" type="audio/mpeg">
+        <a href="./Audio/Justin_Timberlake_Say_Something.mp3">Скачать name.mp3</a>
+    </audio>
+    
+    <!--вставка видео-->
+    <video controls width="400" height="300">
+        <source src="./Video/videoplayback(online-video-cutter.com).mp4" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+        <source src="./Video/videoplayback (video-converter.com).webm" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
+        <source src="./Video/videoplayback(video-converter.com).mpg" type="video/ogv"><!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
+        </object>
+      </video>
+      
+    <!-- Если убрать controls, а добавить loop - видео будет буз значков плей и т.д.-->
+
+
+    <!-- Здесь интересно слово "poster" - это картинка, которая накладывается на видео, до нажатия кнопки плей "превью"
+    
+    <video controls width="710" height="538" poster="/examples/media/martynko.png" preload="none">
+    <source src="/examples/media/martynko.mp4" type="video/mp4">
+    <source src="/examples/media/martynko.webm" type="video/webm">
+    <source src="/examples/media/martynko.ogv" type="video/ogg">
+    </video>
+    -->
+
+
+
+</body>
+</html>
